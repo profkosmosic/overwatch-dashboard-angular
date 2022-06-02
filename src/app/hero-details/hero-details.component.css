@@ -1,0 +1,78 @@
+#heroDetails {
+    height: 1260px;
+    background-image: url(../../assets/img/splash.jpg);
+    background-repeat: space;
+    background-size: cover;
+}
+
+#info {
+    height: 630px;
+}
+
+#welcome {
+    padding-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+    font-family: menuFont;
+    font-size: 64px;
+    color: white;
+    -webkit-text-stroke: 0.75px black;
+}
+
+h1 {
+    color: #FA9C1D;
+}
+
+
+#edit {
+    height: 630px;
+}
+
+@media (max-width: 1200px) {
+    #heroDetails {
+        height: 980px;
+    }
+
+    #info {
+        height: 490px;
+    }
+
+    #welcome {
+        padding-top: 245px;
+    }
+
+    #edit {
+        height: 490px;
+    }
+
+    h1, h2 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 650px) {
+    #heroDetails {
+        height: 840px;
+    }
+
+    #info {
+        height: 420px;
+    }
+
+    #welcome {
+        padding-top: 210px;
+    }
+
+    #edit {
+        height: 420px;
+    }
+
+    h1, h2 {
+        font-size: 48px;
+    }
+}

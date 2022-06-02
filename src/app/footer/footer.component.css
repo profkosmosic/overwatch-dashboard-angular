@@ -1,0 +1,32 @@
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #35393c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p, a {
+    font-family: menuFont;
+    font-size: 32px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+
+a:hover {
+    color: #FA9C1D;
+}
+
+@media (max-width: 850px) {
+    p, a {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 550px) {
+    p, a {
+        font-size: 24px;
+    }
+}

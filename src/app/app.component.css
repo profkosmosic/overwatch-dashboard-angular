@@ -1,0 +1,8 @@
+#screenDivide {
+    display: flex;
+    justify-content: flex-start;
+}
+
+app-hero-details {
+    flex-basis: 100%;
+}

@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "key": "dva",
+        "name": "D.Va",
+        "role": "tank",
+        "health": 600,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/hero-select-portrait.png"
+    },
+    {
+        "id": 2,
+        "key": "orisa",
+        "name": "Orisa",
+        "role": "tank",
+        "health": 450,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/hero-select-portrait.png"
+    },
+    {
+        "id": 3,
+        "key": "reinhardt",
+        "name": "Reinhardt",
+        "role": "tank",
+        "health": 500,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/hero-select-portrait.png"
+    },
+    {
+        "id": 4,
+        "key": "roadhog",
+        "name": "Roadhog",
+        "role": "tank",
+        "health": 600,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/hero-select-portrait.png"
+    },
+    {
+        "id": 5,
+        "key": "winston",
+        "name": "Winston",
+        "role": "tank",
+        "health": 500,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/hero-select-portrait.png"
+    },
+    {
+        "id": 6,
+        "key": "wrecking-ball",
+        "name": "Hammond",
+        "role": "tank",
+        "health": 600,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/hero-select-portrait.png"
+    },
+    {
+        "id": 7,
+        "key": "zarya",
+        "name": "Zarya",
+        "role": "tank",
+        "health": 400,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/hero-select-portrait.png"
+    },
+    {
+        "id": 8,
+        "key": "bastion",
+        "name": "Bastion",
+        "role": "damage",
+        "health": 300,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/hero-select-portrait.png"
+    },
+    {
+        "id": 9,
+        "key": "doomfist",
+        "name": "Doomfist",
+        "role": "damage",
+        "health": 250,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/hero-select-portrait.png"
+    },
+    {
+        "id": 10,
+        "key": "genji",
+        "name": "Genji",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/hero-select-portrait.png"
+    },
+    {
+        "id": 11,
+        "key": "hanzo",
+        "name": "Hanzo",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/hero-select-portrait.png"
+    },
+    {
+        "id": 12,
+        "key": "junkrat",
+        "name": "Junkrat",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/hero-select-portrait.png"
+    },
+    {
+        "id": 13,
+        "key": "mccree",
+        "name": "McCree",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/hero-select-portrait.png"
+    },
+    {
+        "id": 14,
+        "key": "mei",
+        "name": "Mei",
+        "role": "damage",
+        "health": 250,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/hero-select-portrait.png"
+    },
+    {
+        "id": 15,
+        "key": "pharah",
+        "name": "Pharah",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/hero-select-portrait.png"
+    },
+    {
+        "id": 16,
+        "key": "reaper",
+        "name": "Reaper",
+        "role": "damage",
+        "health": 250,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/hero-select-portrait.png"
+    },
+    {
+        "id": 17,
+        "key": "soldier-76",
+        "name": "Soldier 76",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/hero-select-portrait.png"
+    },
+    {
+        "id": 18,
+        "key": "sombra",
+        "name": "Sombra",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/hero-select-portrait.png"
+    },
+    {
+        "id": 19,
+        "key": "symmetra",
+        "name": "Symmetra",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/hero-select-portrait.png"
+    },
+    {
+        "id": 20,
+        "key": "torbjorn",
+        "name": "Torbjörn",
+        "role": "damage",
+        "health": 250,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/hero-select-portrait.png"
+    },
+    {
+        "id": 21,
+        "key": "tracer",
+        "name": "Tracer",
+        "role": "damage",
+        "health": 150,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/hero-select-portrait.png"
+    },
+    {
+        "id": 22,
+        "key": "widowmaker",
+        "name": "Widowmaker",
+        "role": "damage",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/hero-select-portrait.png"
+    },
+    {
+        "id": 23,
+        "key": "ana",
+        "name": "Ana",
+        "role": "support",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/hero-select-portrait.png"
+    },
+    {
+        "id": 24,
+        "key": "brigitte",
+        "name": "Brigitte",
+        "role": "support",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/hero-select-portrait.png"
+    },
+    {
+        "id": 25,
+        "key": "lucio",
+        "name": "Lúcio",
+        "role": "support",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/hero-select-portrait.png"
+    },
+    {
+        "id": 26,
+        "key": "mercy",
+        "name": "Mercy",
+        "role": "support",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/hero-select-portrait.png"
+    },
+    {
+        "id": 27,
+        "key": "moira",
+        "name": "Moira",
+        "role": "support",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/hero-select-portrait.png"
+    },
+    {
+        "id": 28,
+        "key": "zenyatta",
+        "name": "Zenyatta",
+        "role": "support",
+        "health": 200,
+        "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/hero-select-portrait.png"
+    }
+]
