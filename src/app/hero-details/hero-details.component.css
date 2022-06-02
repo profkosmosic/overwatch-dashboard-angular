@@ -1,18 +1,16 @@
 #heroDetails {
     height: 1260px;
+}
+
+#info {
+    height: 630px;
     background-image: url(../../assets/img/splash.jpg);
     background-repeat: space;
     background-size: cover;
 }
 
-#info {
-    height: 630px;
-}
-
 #welcome {
-    padding-top: 300px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-top: 25px;
 }
 
 h1, h2 {
@@ -31,6 +29,8 @@ h1 {
 
 #edit {
     height: 630px;
+    background-image: url(../../assets/img/background.jpg);
+    background-repeat: repeat;
 }
 
 @media (max-width: 1200px) {
@@ -42,16 +42,12 @@ h1 {
         height: 490px;
     }
 
-    #welcome {
-        padding-top: 245px;
-    }
-
     #edit {
         height: 490px;
     }
 
     h1, h2 {
-        font-size: 56px;
+        font-size: 48px;
     }
 }
 
@@ -64,15 +60,11 @@ h1 {
         height: 420px;
     }
 
-    #welcome {
-        padding-top: 210px;
-    }
-
     #edit {
         height: 420px;
     }
 
     h1, h2 {
-        font-size: 48px;
+        font-size: 32px;
     }
 }
