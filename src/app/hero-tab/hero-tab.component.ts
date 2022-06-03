@@ -9,7 +9,7 @@ import { heroes } from '../heroes';
 })
 export class HeroTabComponent implements OnInit {
 
-  public heroList:Hero[] = heroes;
+  public heroList = heroes;
 
   constructor() { }
 
