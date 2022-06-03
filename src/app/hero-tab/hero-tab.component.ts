@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import heroes from 'src/assets/overwatch.json'
 import { Hero } from '../hero';
+import { heroes } from '../heroes';
 
 @Component({
   selector: 'app-hero-tab',
