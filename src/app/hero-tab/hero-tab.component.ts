@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import heroes from 'src/assets/overwatch.json'
+import { Hero } from '../hero';
 
 @Component({
   selector: 'app-hero-tab',
@@ -8,7 +9,7 @@ import heroes from 'src/assets/overwatch.json'
 })
 export class HeroTabComponent implements OnInit {
 
-  public heroList:{id:number, key:string, name:string, role:string, health:number, portrait:string}[] = heroes;
+  public heroList:Hero[] = heroes;
 
   constructor() { }
 
