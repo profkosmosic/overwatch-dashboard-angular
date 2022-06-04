@@ -5,6 +5,7 @@
         "name": "D.Va",
         "role": "tank",
         "health": 600,
+        "ult": "Mech",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/dva/hero-select-portrait.png"
     },
     {
@@ -13,6 +14,7 @@
         "name": "Orisa",
         "role": "tank",
         "health": 450,
+        "ult": "Supercharge",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/orisa/hero-select-portrait.png"
     },
     {
@@ -21,6 +23,7 @@
         "name": "Reinhardt",
         "role": "tank",
         "health": 500,
+        "ult": "Shatter",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/reinhardt/hero-select-portrait.png"
     },
     {
@@ -29,6 +32,7 @@
         "name": "Roadhog",
         "role": "tank",
         "health": 600,
+        "ult": "Whole hog",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/roadhog/hero-select-portrait.png"
     },
     {
@@ -37,6 +41,7 @@
         "name": "Winston",
         "role": "tank",
         "health": 500,
+        "ult": "Rage",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/winston/hero-select-portrait.png"
     },
     {
@@ -45,6 +50,7 @@
         "name": "Hammond",
         "role": "tank",
         "health": 600,
+        "ult": "Mines",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/wrecking-ball/hero-select-portrait.png"
     },
     {
@@ -53,6 +59,7 @@
         "name": "Zarya",
         "role": "tank",
         "health": 400,
+        "ult": "Graviton",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/zarya/hero-select-portrait.png"
     },
     {
@@ -61,6 +68,7 @@
         "name": "Bastion",
         "role": "damage",
         "health": 300,
+        "ult": "Tank",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/bastion/hero-select-portrait.png"
     },
     {
@@ -69,6 +77,7 @@
         "name": "Doomfist",
         "role": "damage",
         "health": 250,
+        "ult": "Meteor",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/doomfist/hero-select-portrait.png"
     },
     {
@@ -77,6 +86,7 @@
         "name": "Genji",
         "role": "damage",
         "health": 200,
+        "ult": "Blade",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/genji/hero-select-portrait.png"
     },
     {
@@ -85,6 +95,7 @@
         "name": "Hanzo",
         "role": "damage",
         "health": 200,
+        "ult": "Dragons",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/hanzo/hero-select-portrait.png"
     },
     {
@@ -93,6 +104,7 @@
         "name": "Junkrat",
         "role": "damage",
         "health": 200,
+        "ult": "RIP-Tire",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/junkrat/hero-select-portrait.png"
     },
     {
@@ -101,6 +113,7 @@
         "name": "McCree",
         "role": "damage",
         "health": 200,
+        "ult": "Deadeye",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/mccree/hero-select-portrait.png"
     },
     {
@@ -109,6 +122,7 @@
         "name": "Mei",
         "role": "damage",
         "health": 250,
+        "ult": "Blizzard",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/mei/hero-select-portrait.png"
     },
     {
@@ -117,6 +131,7 @@
         "name": "Pharah",
         "role": "damage",
         "health": 200,
+        "ult": "Barrage",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/pharah/hero-select-portrait.png"
     },
     {
@@ -125,6 +140,7 @@
         "name": "Reaper",
         "role": "damage",
         "health": 250,
+        "ult": "Blossom",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/reaper/hero-select-portrait.png"
     },
     {
@@ -133,6 +149,7 @@
         "name": "Soldier 76",
         "role": "damage",
         "health": 200,
+        "ult": "Visor",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/soldier-76/hero-select-portrait.png"
     },
     {
@@ -141,6 +158,7 @@
         "name": "Sombra",
         "role": "damage",
         "health": 200,
+        "ult": "EMP",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/sombra/hero-select-portrait.png"
     },
     {
@@ -149,6 +167,7 @@
         "name": "Symmetra",
         "role": "damage",
         "health": 200,
+        "ult": "Barrier",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/symmetra/hero-select-portrait.png"
     },
     {
@@ -157,6 +176,7 @@
         "name": "Torbjörn",
         "role": "damage",
         "health": 250,
+        "ult": "Molten Core",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/torbjorn/hero-select-portrait.png"
     },
     {
@@ -165,6 +185,7 @@
         "name": "Tracer",
         "role": "damage",
         "health": 150,
+        "ult": "Pulse Bomb",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/tracer/hero-select-portrait.png"
     },
     {
@@ -173,6 +194,7 @@
         "name": "Widowmaker",
         "role": "damage",
         "health": 200,
+        "ult": "Infra-Sight",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/widowmaker/hero-select-portrait.png"
     },
     {
@@ -181,6 +203,7 @@
         "name": "Ana",
         "role": "support",
         "health": 200,
+        "ult": "Nano Boost",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/ana/hero-select-portrait.png"
     },
     {
@@ -189,6 +212,7 @@
         "name": "Brigitte",
         "role": "support",
         "health": 200,
+        "ult": "Rally",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/brigitte/hero-select-portrait.png"
     },
     {
@@ -197,6 +221,7 @@
         "name": "Lúcio",
         "role": "support",
         "health": 200,
+        "ult": "Amplifier",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/lucio/hero-select-portrait.png"
     },
     {
@@ -205,6 +230,7 @@
         "name": "Mercy",
         "role": "support",
         "health": 200,
+        "ult": "Valkyrie",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/mercy/hero-select-portrait.png"
     },
     {
@@ -213,6 +239,7 @@
         "name": "Moira",
         "role": "support",
         "health": 200,
+        "ult": "Coalescence",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/moira/hero-select-portrait.png"
     },
     {
@@ -221,6 +248,7 @@
         "name": "Zenyatta",
         "role": "support",
         "health": 200,
+        "ult": "Transcend",
         "portrait": "https://d1u1mce87gyfbn.cloudfront.net/hero/zenyatta/hero-select-portrait.png"
     }
 ]

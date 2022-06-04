@@ -35,7 +35,7 @@ nav a:hover {
     color: #FA9C1D;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     header {
         height: 75px;
     }

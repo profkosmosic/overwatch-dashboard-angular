@@ -4,5 +4,6 @@ export interface Hero {
     name:string;
     role:string;
     health:number;
+    ult:string;
     portrait:string;
 }
