@@ -7,6 +7,8 @@
     background-image: url(../../assets/img/splash.jpg);
     background-repeat: space;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2 {
@@ -28,6 +30,34 @@ h1 {
     height: 630px;
     background-image: url(../../assets/img/background.jpg);
     background-repeat: repeat;
+}
+
+#heroInfo {
+    display: flex;
+    background-color:rgba(250, 156, 29, 0.7);
+    border-radius: 50px;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+}
+
+#heroInfo img {
+    border: 5px black solid;
+    border-radius: 25px;
+    background-color: white;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#heroInfo p {
+    font-family: menuFont;
+    font-size: 42px;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 25px;
 }
 
 @media (max-width: 1200px) {

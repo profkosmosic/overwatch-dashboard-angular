@@ -9,11 +9,16 @@ import { heroes } from '../heroes';
 })
 export class HeroTabComponent implements OnInit {
 
-  public heroList = heroes;
+  heroList = heroes;
+  selectedHero?:Hero;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  selectHero(hero:Hero):void {
+    this.selectedHero = hero;
   }
 
 }

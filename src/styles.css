@@ -3,6 +3,11 @@
     src: url(assets/fonts/bignoodletoo.ttf);
 }
 
+@font-face {
+    font-family: OWFont;
+    src: url(assets/fonts/bebasneue.ttf);
+}
+
 body {
     margin: 0 auto;
 }

@@ -1,13 +1,16 @@
-<article id="hero-tab">
-    <ul id="hero-list">
-        <a href="#" id="heroes" *ngFor="let hero of heroList">
-            <li class="hero" [ngStyle]="{'background-color':hero.id % 2 == 0 ? '#19202e' : '#20293a'}">
-                <img *ngIf="hero.role == 'tank'" src="/assets/img/tank.png" alt="tank"/>
-                <img *ngIf="hero.role == 'damage'" src="/assets/img/damage.png" alt="damage"/>
-                <img *ngIf="hero.role == 'support'" src="/assets/img/healer.png" alt="support"/>
-                <img class="heroPic" src={{hero.portrait}} alt={{hero.key}}/>
-                <h5>{{hero.name | uppercase}}</h5>
-            </li>
-        </a>
-    </ul>
+<article id="holder">
+    <article id="hero-tab">
+        <ul id="hero-list">
+            <a href="#" id="heroes" (click)="selectHero(hero)" *ngFor="let hero of heroList">
+                <li class="hero" [ngStyle]="{'background-color':hero.id % 2 == 0 ? '#19202e' : '#20293a'}">
+                    <img *ngIf="hero.role == 'tank'" src="/assets/img/tank.png" alt="tank"/>
+                    <img *ngIf="hero.role == 'damage'" src="/assets/img/damage.png" alt="damage"/>
+                    <img *ngIf="hero.role == 'support'" src="/assets/img/healer.png" alt="support"/>
+                    <img class="heroPic" src={{hero.portrait}} alt={{hero.key}}/>
+                    <h5>{{hero.name | uppercase}}</h5>
+                </li>
+            </a>
+        </ul>
+    </article>
+    <app-hero-details [hero]="selectedHero"></app-hero-details>
 </article>

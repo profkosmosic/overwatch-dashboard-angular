@@ -1,5 +1,10 @@
+#holder {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #hero-tab {
-    width: 100%;
+    width: 25%;
 }
 
 #hero-list {
@@ -38,6 +43,10 @@
 }
 
 @media (max-width: 1200px) {
+    #hero-tab {
+        width: 30%;
+    }
+
     .hero {
         height: 35px;
     }
@@ -57,6 +66,10 @@
 }
 
 @media (max-width: 650px) {
+    #hero-tab {
+        width: 40%;
+    }
+
     .hero {
         height: 30px;
     }
@@ -71,4 +84,8 @@
         margin-right: 5px;
         -webkit-text-stroke: 0.5px black;
     }
+}
+
+app-hero-details {
+    flex-basis: 100%;
 }
