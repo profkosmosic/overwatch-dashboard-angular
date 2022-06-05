@@ -9,6 +9,7 @@ import { Hero } from '../hero';
 export class HeroDetailsComponent implements OnInit {
 
   @Input() hero?:Hero;
+  roleArr:string[] = ["tank", "damage", "support"];
 
   constructor() { }
 

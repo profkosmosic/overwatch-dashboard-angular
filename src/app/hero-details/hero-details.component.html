@@ -16,5 +16,18 @@
     </section>
     <section id="edit">
         <h1>EDIT HERO</h1>
+        <h2 *ngIf="!hero">PLEASE SELECT A HERO TO EDIT</h2>
+        <section id="editInfo" *ngIf="hero">
+            <label for="heroName">Name: </label>
+            <input id="heroName" [(ngModel)]="hero.name" placeholder="name"/><br/>
+            <label for="heroRole">Role: </label>
+            <select id="heroRole" [(ngModel)]="hero.role">
+                <option *ngFor="let role of roleArr" [value]="role">{{role}}</option>
+            </select><br/>
+            <label for="heroHealth">HP: </label>
+            <input id="heroHealth" [(ngModel)]="hero.health" placeholder="HP"/><br/>
+            <label for="heroUlt">ULT: </label>
+            <input id="heroUlt" [(ngModel)]="hero.ult" placeholder="ULT"/><br/>
+        </section>
     </section>
 </article>
