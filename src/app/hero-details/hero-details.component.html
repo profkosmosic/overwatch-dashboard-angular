@@ -15,19 +15,33 @@
         </section>
     </section>
     <section id="edit">
-        <h1>EDIT HERO</h1>
+        <h1 id="editTitle">EDIT HERO</h1>
         <h2 *ngIf="!hero">PLEASE SELECT A HERO TO EDIT</h2>
         <section id="editInfo" *ngIf="hero">
-            <label for="heroName">Name: </label>
-            <input id="heroName" [(ngModel)]="hero.name" placeholder="name"/><br/>
-            <label for="heroRole">Role: </label>
-            <select id="heroRole" [(ngModel)]="hero.role">
-                <option *ngFor="let role of roleArr" [value]="role">{{role}}</option>
-            </select><br/>
-            <label for="heroHealth">HP: </label>
-            <input id="heroHealth" [(ngModel)]="hero.health" placeholder="HP"/><br/>
-            <label for="heroUlt">ULT: </label>
-            <input id="heroUlt" [(ngModel)]="hero.ult" placeholder="ULT"/><br/>
+            <section id="editContainer">
+                <table>
+                    <tr>
+                        <td><label for="heroName">Name: </label></td>
+                        <td><input id="heroName" [(ngModel)]="hero.name" maxlength="12" placeholder="name"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="heroRole">Role: </label></td>
+                        <td>
+                            <select id="heroRole" [(ngModel)]="hero.role">
+                                <option *ngFor="let role of roleArr" [value]="role">{{role}}</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="heroHealth">HP: </label></td>
+                        <td><input id="heroHealth" [(ngModel)]="hero.health" max="1000" placeholder="HP"/></td>
+                    </tr>
+                    <tr>
+                        <td><label for="heroUlt">ULT: </label></td>
+                        <td><input id="heroUlt" [(ngModel)]="hero.ult" maxlength="14" placeholder="ULT"/></td>
+                    </tr>
+                </table>
+            </section>
         </section>
     </section>
 </article>
