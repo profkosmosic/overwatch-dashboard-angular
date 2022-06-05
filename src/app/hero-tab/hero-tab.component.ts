@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Hero } from '../hero';
-import { heroes } from '../heroes';
+import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-tab',
@@ -9,10 +9,10 @@ import { heroes } from '../heroes';
 })
 export class HeroTabComponent implements OnInit {
 
-  heroList = heroes;
+  heroList:Hero[] = [];
   selectedHero?:Hero;
 
-  constructor() { }
+  constructor(private heroService:HeroService) { }
 
   ngOnInit(): void {
   }
