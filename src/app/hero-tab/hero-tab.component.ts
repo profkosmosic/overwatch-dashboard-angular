@@ -23,7 +23,8 @@ export class HeroTabComponent implements OnInit {
   }
 
   getHeroes():void {
-    this.heroList = this.heroService.getHeroes();
+    this.heroService.getHeroes()
+      .subscribe(heroes => this.heroList = heroes);
   }
 
 }
