@@ -15,10 +15,15 @@ export class HeroTabComponent implements OnInit {
   constructor(private heroService:HeroService) { }
 
   ngOnInit(): void {
+    this.getHeroes();
   }
 
   selectHero(hero:Hero):void {
     this.selectedHero = hero;
+  }
+
+  getHeroes():void {
+    this.heroList = this.heroService.getHeroes();
   }
 
 }
