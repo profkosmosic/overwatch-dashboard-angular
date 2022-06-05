@@ -7,7 +7,7 @@ footer {
     align-items: center;
 }
 
-p, a {
+a {
     font-family: menuFont;
     font-size: 32px;
     color: white;
@@ -20,13 +20,13 @@ a:hover {
 }
 
 @media (max-width: 850px) {
-    p, a {
+    a {
         font-size: 28px;
     }
 }
 
 @media (max-width: 550px) {
-    p, a {
+    a {
         font-size: 24px;
     }
 }
