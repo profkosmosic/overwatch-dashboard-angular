@@ -36,7 +36,9 @@ p, a {
 }
 
 a:hover {
-    color: #FA9C1D;
+    animation-name: transition;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 img {

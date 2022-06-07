@@ -8,6 +8,11 @@
     src: url(assets/fonts/bebasneue.ttf);
 }
 
+@keyframes transition {
+    0%   {color: white;}
+    100% {color: #FA9C1D;}
+}
+
 body {
     margin: 0 auto;
 }
