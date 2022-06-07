@@ -130,6 +130,10 @@ h1 {
     h1, h2 {
         font-size: 44px;
     }
+
+    #editContainer {
+        margin: 50px;
+    }
 }
 
 @media (max-width: 800px) {
