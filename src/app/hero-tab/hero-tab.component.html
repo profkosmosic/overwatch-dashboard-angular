@@ -1,7 +1,7 @@
 <article id="holder">
     <article id="hero-tab">
         <ul id="hero-list">
-            <a href="#" id="heroes" (click)="selectHero(hero)" *ngFor="let hero of heroList">
+            <a href="#" id="heroes" (click)="selectHero(hero)" *ngFor="let hero of heroList" routerLink="/heroes/{{hero.key}}">
                 <li class="hero" [ngStyle]="{'background-color':hero.id % 2 == 0 ? '#19202e' : '#20293a'}">
                     <img *ngIf="hero.role == 'tank'" src="/assets/img/tank.png" alt="tank"/>
                     <img *ngIf="hero.role == 'damage'" src="/assets/img/damage.png" alt="damage"/>
