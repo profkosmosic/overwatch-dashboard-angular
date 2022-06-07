@@ -5,6 +5,7 @@ h1 {
     font-size: 56px;
     color: #FA9C1D;
     -webkit-text-stroke: 0.75px black;
+    padding-top: 25px;
 }
 
 #about {
@@ -18,12 +19,12 @@ h1 {
     border-radius: 25px;
     width: 600px;
     text-align: center;
+    margin-top: 40px;
 }
 
 #aboutMe {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 p, a {
@@ -42,4 +43,16 @@ img {
     height: 200px;
     margin-top: 25px;
     border-radius: 15px;
+    border: 3px solid white;
+}
+
+@media (max-width: 800px) {
+    #aboutContainer {
+        width: 400px;
+    }
+
+    p, a {
+        font-size: 32px;
+        -webkit-text-stroke: 1.25px black;
+    }
 }
