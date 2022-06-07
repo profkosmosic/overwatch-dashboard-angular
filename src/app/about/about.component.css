@@ -31,8 +31,15 @@ p, a {
     font-size: 40px;
     color: white;
     -webkit-text-stroke: 1.5px black;
+    margin: 20px
 }
 
 a:hover {
     color: #FA9C1D;
+}
+
+img {
+    height: 200px;
+    margin-top: 25px;
+    border-radius: 15px;
 }
