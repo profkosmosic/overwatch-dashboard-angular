@@ -4,6 +4,7 @@ import { AppComponent } from './app.component';
 import { HeroTabComponent } from './hero-tab/hero-tab.component';
 
 const routes: Routes = [
+  {path: "", component: HeroTabComponent},
   {path: "heroes/:key", component: HeroTabComponent}
 ];
 
