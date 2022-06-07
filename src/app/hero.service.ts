@@ -14,4 +14,9 @@ export class HeroService {
     const heroArr = of(heroes);
     return heroArr;
   }
+
+  getHero(key: string):Observable<Hero> {
+    const hero = heroes.find(h => h.key === key)!;
+    return of(hero);
+  }
 }
