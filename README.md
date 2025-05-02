@@ -1,9 +1,7 @@
 # Overwatch Dashboard
 
-Overwatch dashboard web app written in Angular.
-
-Overwatch belongs to Blizzard Entertainment.
-
+Overwatch dashboard web app built with Angular.<br/>
+Overwatch belongs to Blizzard Entertainment.<br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
 ## Development server
